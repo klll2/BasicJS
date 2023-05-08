@@ -1,0 +1,10 @@
+var a = 0;
+var b = true;
+if (typeof(a)=="undefined" || typeof(b)=="undefined") {
+  document.write("Variable a or b is undefined.");
+}
+else if (a == 0 && b) {
+  document.write("a==0; b==true;");
+} else {
+  document.write("a==" + a + "; b==" + b + ";");
+}
